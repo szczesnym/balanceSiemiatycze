@@ -1,0 +1,41 @@
+
+group 'com.oerlemans.siemiatycze.balance'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext {
+        springBootVersion = '2.0.5.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+sourceCompatibility = 1.8
+
+bootJar {
+    mainClassName = 'com.oerlemans.siemiatycze.balance.BalanceApplication'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.projectlombok:lombok:1.16.20')
+    //compile('org.springframework.boot:spring-boot-starter-data-jpa:2.0.5.RELEASE')
+    compile('org.springframework.boot:spring-boot-starter-web:2.0.5.RELEASE')
+    //compile('org.thymeleaf:thymeleaf-spring5:3.0.9.RELEASE')
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
