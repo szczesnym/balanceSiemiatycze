@@ -2,6 +2,7 @@ package com.oerlemans.siemiatycze.balance.physical;
 
 import com.pi4j.io.serial.*;
 import org.springframework.stereotype.Service;
+import org.springframework.context.annotation.Bean;
 
 import java.io.IOException;
 
@@ -23,23 +24,19 @@ public class SerialController {
                     .parity(Parity.NONE)
                     .stopBits(StopBits._1)
                     .flowControl(FlowControl.NONE);
-            serial.addListener(new SerialDataEventListener() {
-                @Override
-                public void dataReceived(SerialDataEvent event) {
-
-                    // NOTE! - It is extremely important to read the data received from the
-                    // serial port.  If it does not get read from the receive buffer, the
-                    // buffer will continue to grow and consume memory.
-
-                    // print out the data received to the console
-                    try {
-                        assciBuffer = "";
-                        hexBuffer = "";
-                        assciBuffer = event.getHexByteString();
-                        hexBuffer = event.getAsciiString();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+            serial.addListener((SerialDataEventListener) (SerialDataEvent event) -> {
+                // NOTE! - It is extremely important to read the data received from the
+                // serial port.  If it does not get read from the receive buffer, the
+                // buffer will continue to grow and consume memory.
+                
+                // print out the data received to the console
+                try {
+                    assciBuffer = "";
+                    hexBuffer = "";
+                    assciBuffer = event.getHexByteString();
+                    hexBuffer = event.getAsciiString();
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
             });
             serial.open(serialConfig);
@@ -48,7 +45,8 @@ public class SerialController {
             ex.printStackTrace();
         }
     }
-
+    
+    @Bean
     public static SerialController getInstance() {
         if (instance == null) {
             synchronized (SerialController.class) {
