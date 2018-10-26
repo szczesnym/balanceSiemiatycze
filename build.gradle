@@ -29,6 +29,9 @@ bootJar {
 
 repositories {
     mavenCentral()
+    maven {
+        url 'https://oss.sonatype.org/content/groups/public'
+    }
 }
 
 dependencies {
@@ -36,6 +39,6 @@ dependencies {
     //compile('org.springframework.boot:spring-boot-starter-data-jpa:2.0.5.RELEASE')
     compile('org.springframework.boot:spring-boot-starter-web:2.0.5.RELEASE')
     //compile('org.thymeleaf:thymeleaf-spring5:3.0.9.RELEASE')
-
+    compile('com.pi4j:pi4j-core:1.2-SNAPSHOT')
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
