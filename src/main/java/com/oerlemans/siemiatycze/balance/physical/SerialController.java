@@ -14,7 +14,6 @@ public class SerialController {
     private String assciBuffer;
     private String hexBuffer;
 
-
     private SerialController() {
         serialConfig = new SerialConfig();
         try {

@@ -1,22 +1,22 @@
 package com.oerlemans.siemiatycze.balance.service;
 
+import com.oerlemans.siemiatycze.balance.physical.SerialController;
+import com.oerlemans.siemiatycze.balance.util.BalanceUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Random;
-
-import com.oerlemans.siemiatycze.balance.physical.SerialController;
 
 @Service
 public class BalanceService {
     private double balanceValue;
     private static BalanceService instance = null;
     private static final Logger LOGGER = LoggerFactory.getLogger(BalanceService.class);
-    
-    @Autowired 
+
+    @Autowired
     SerialController serialController;
 
     private BalanceService() {
@@ -45,21 +45,8 @@ public class BalanceService {
 
     private void readScaleData() {
         String serialStringValue = serialController.getAssciBuffer();
-        LOGGER.info("serial data:" + serialStringValue);
-        /*if(!serialStringValue.isEmpty()) {
-            try{
-                this.balanceValue =(double) new Double(new Double(serialStringValue) * 100 ).intValue() / 100;
-            } catch(NumberFormatException nEx) {
-                nEx.printStackTrace();
-                System.out.println("Balance conversion error:" + nEx.getMessage());
-                this.balanceValue =0.0;           
-            }
-        } else
-        {
-            this.balanceValue = 0.0;
-        }*/
-        
-        //this.balanceValue =(double) new Double(mockScaleData() * 100 ).intValue() / 100;
+        LOGGER.info("BalanceService.readScaleData->serial data:" + serialStringValue);
+        balanceValue = BalanceUtils.scaleResultAsdouble(serialStringValue);
     }
 
     private double mockScaleData() {
@@ -68,4 +55,6 @@ public class BalanceService {
         LOGGER.info("Scale data Mocked:" + tempValue);
         return tempValue;
     }
+
+
 }

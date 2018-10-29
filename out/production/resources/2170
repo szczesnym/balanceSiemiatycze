@@ -1,0 +1,48 @@
+2018-10-26 17:18:08.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:08.400  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:18:13.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:13.400  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:18:18.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:18.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:18:23.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:23.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:18:28.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:28.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:18:33.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:33.400  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:18:38.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:38.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:18:43.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:43.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:18:48.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:48.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:18:53.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:53.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:18:58.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:18:58.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:19:03.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:19:03.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:19:08.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:19:08.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:19:13.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,39,30,30,30,30,30,30,30,0D
+2018-10-26 17:19:13.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:19:18.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,39,30,30,30,30,30,30,30,0D
+2018-10-26 17:19:18.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:19:23.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,39,30,30,30,30,30,30,30,0D
+2018-10-26 17:19:23.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:19:28.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:19:28.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:19:33.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:19:33.399  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+2018-10-26 17:19:38.398  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : serial data:02,79,30,30,20,30,30,30,30,30,30,30,30,30,30,30,0D
+2018-10-26 17:19:38.400  INFO 738 --- [pool-2-thread-1] c.o.s.balance.service.BalanceService     : Data fetched:0.0
+^C2018-10-26 17:19:40.504  INFO 738 --- [      Thread-99] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1baa894: startup date [Fri Oct 26 17:15:47 CEST 2018]; root of context hierarchy
+2018-10-26 17:19:40.552  INFO 738 --- [      Thread-99] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+pi@raspberrypi:~/Projects/Scale/build/libs $ miniterm.py 
+
+--- Available ports:
+---  1: /dev/ttyAMA0         ttyAMA0
+--- Enter port index or full name: 1   
+--- Miniterm on /dev/ttyAMA0  9600,8,N,1 ---
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+␂y00 00000000000

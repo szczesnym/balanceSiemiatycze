@@ -14,11 +14,9 @@ public class BalanceDataFetcher {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(BalanceService.class);
 
-    //@Scheduled(cron = "0 0 10 * * *")
     @Scheduled(fixedRate = 5000)
     public void fetchBalanceData() {
         balanceService.updateBalanceValue();
-        LOGGER.info("Data fetched:" + balanceService.getBalanceValue());
-        //balanceService.updateBalanceValue();
+        LOGGER.info("BalanceDataFetcher.fetchBalanceData -> Data fetched:" + balanceService.getBalanceValue());
     }
 }
