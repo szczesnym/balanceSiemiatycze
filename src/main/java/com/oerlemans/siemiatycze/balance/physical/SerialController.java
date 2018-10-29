@@ -19,7 +19,7 @@ public class SerialController {
         serialConfig = new SerialConfig();
         try {
             serialConfig.device(SerialPort.getDefaultPort())
-                    .baud(Baud._38400)
+                    .baud(Baud._9600)
                     .dataBits(DataBits._8)
                     .parity(Parity.NONE)
                     .stopBits(StopBits._1)
