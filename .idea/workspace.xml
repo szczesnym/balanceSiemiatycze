@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe37c6d0-32a1-48cf-8fb3-3bc9a14a1ec3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/oerlemans/siemiatycze/balance/util/BalanceUtilsTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oerlemans/siemiatycze/balance/physical/SerialController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oerlemans/siemiatycze/balance/physical/SerialController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oerlemans/siemiatycze/balance/physical/SerialController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oerlemans/siemiatycze/balance/schedule/BalanceDataFetcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oerlemans/siemiatycze/balance/schedule/BalanceDataFetcher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/oerlemans/siemiatycze/balance/service/BalanceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oerlemans/siemiatycze/balance/service/BalanceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oerlemans/siemiatycze/balance/util/BalanceUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/physical/SerialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/physical/SerialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/schedule/BalanceDataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/schedule/BalanceDataFetcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/service/BalanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/service/BalanceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/util/BalanceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/util/BalanceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,42 +25,43 @@
     <session id="-535148377">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="2170" value="1" />
           <entry key="gradle" value="2" />
-          <entry key="java" value="29" />
-          <entry key="properties" value="1" />
+          <entry key="java" value="33" />
+          <entry key="properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="33" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="1" />
+          <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
           <entry key="gradle" value="81" />
-          <entry key="java" value="2586" />
-          <entry key="properties" value="57" />
+          <entry key="java" value="2805" />
+          <entry key="properties" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="81" />
-          <entry key="JAVA" value="2586" />
+          <entry key="JAVA" value="2805" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="57" />
+          <entry key="Properties" value="81" />
         </counts>
       </usages-collector>
     </session>
@@ -77,20 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/2170">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="442">
               <caret line="26" column="161" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="161" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/domain/Weight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -98,20 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/schedule/BalanceDataFetcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/service/BalanceService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="124">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,10 +90,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/physical/SerialController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/service/BalanceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="51">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,10 +102,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/physical/SerialController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2091#2092#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/controller/BalanceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,11 +138,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/util/BalanceUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="782">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1888#1896#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,7 +150,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/oerlemans/siemiatycze/balance/util/BalanceUtilsTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
+            <state relative-caret-position="272">
               <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -622,13 +613,13 @@
         <option value="$PROJECT_DIR$/src/main/java/BalanceApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/domain/Weight.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/util/BalanceUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oerlemans/siemiatycze/balance/util/BalanceUtilsTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/controller/BalanceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/schedule/BalanceDataFetcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/service/BalanceService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/physical/SerialController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/service/BalanceService.java" />
       </list>
     </option>
   </component>
@@ -647,7 +638,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -777,6 +767,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -911,19 +902,19 @@
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36273006" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36809817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39966273" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39966273" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44519392" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39966273" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.16526139" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4401349" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3281412" />
@@ -965,6 +956,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/service/BalanceService.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -1041,20 +1044,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BalanceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,17 +1065,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/domain/Weight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/2170">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="442">
           <caret line="26" column="161" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="161" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oerlemans/siemiatycze/balance/util/BalanceUtilsTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/controller/BalanceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        <state relative-caret-position="306">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1091,59 +1094,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/util/BalanceUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="782">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1888#1896#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/domain/Weight.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oerlemans/siemiatycze/balance/util/BalanceUtilsTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="272">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/controller/BalanceController.java">
+    <entry file="file://$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/service/DbService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/service/TrelloService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/schedule/BalanceDataFetcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        <state relative-caret-position="124">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tasks/src/main/java/com/crud/tasks/config/AdminConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/physical/SerialController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/service/BalanceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oerlemans/siemiatycze/balance/physical/SerialController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="51">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
